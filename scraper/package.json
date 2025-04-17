@@ -1,0 +1,15 @@
+{
+  "name": "web-scraper",
+  "version": "1.0.0",
+  "description": "A web scraper that uses Puppeteer to scrape data and serves it using Flask.",
+  "main": "scrape.js",
+  "scripts": {
+    "start": "node scrape.js"
+  },
+  "dependencies": {
+    "puppeteer": "^22.8.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
