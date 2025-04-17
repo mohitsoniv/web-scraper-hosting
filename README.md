@@ -37,6 +37,10 @@ To run the container, use the following command, replacing `<URL_TO_SCRAPE>` wit
 ```bash
 docker run -e SCRAPE_URL=<URL_TO_SCRAPE> -p 5000:5000 web-scraper-hosting
 ```
+## like :- 
+```
+docker run -d -p 5000:5000 -v C:\Users\s3verma\Documents\Assign_11\web-scraper-hosting\output:/output web-scraper-hosting
+```
 
 ## Access the Scraped Data
 
